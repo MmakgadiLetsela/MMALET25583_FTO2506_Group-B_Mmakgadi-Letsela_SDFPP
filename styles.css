@@ -5,10 +5,21 @@ body{
 }
 /* Container Styles */
 .container{
-
+background-image: url(grey-background.png);
 }
 
 /* Header Styles*/
+.profile{
+display: flex;
+gap: .625rem;
+margin-left: 3.6875rem;
+margin-top: 3.9375rem;
+}
 
 
+.profile-picture{
+    width: 18.7563rem;
+    height: 18.7563rem;
+    border-radius: 1.815rem;
+}
 /* Proficiency Styles */
