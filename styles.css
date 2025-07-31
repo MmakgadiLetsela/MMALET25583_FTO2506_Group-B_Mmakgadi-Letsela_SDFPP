@@ -64,6 +64,7 @@ h1{
 .main-section{
     display: grid;
 
+
 }
 /* Proficiency Styles */
 .proficiency{
@@ -74,6 +75,8 @@ h1{
     padding: 2.5625rem 1.75rem;
     box-sizing: border-box;
     box-shadow: #DADADA 0.125rem blur;
+    margin-left: 3.875rem;
+    margin-top: 3rem;
 }
 
 .proficiency-title{
@@ -133,4 +136,21 @@ width: 19.8125rem;
 }
 .bar-4{
     width: 11.4375rem;
+}
+
+/* Skills Styles*/
+.skills{
+    box-sizing: border-box;
+    width: 44.125rem;
+    height: 26.8125rem;
+    padding: 1.75rem;
+    
+
+}
+
+.skill-tag{
+ height: 3.4375rem;
+ padding: .5625rem 1.5rem;
+ border-radius: 6rem;
+ background-color: #4A8B70;
 }
