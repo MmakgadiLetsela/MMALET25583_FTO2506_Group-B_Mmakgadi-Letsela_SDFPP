@@ -2,6 +2,7 @@
 body{
     padding: 0;
     margin: 0;
+    
 }
 /* Container Styles */
 .container{
@@ -30,7 +31,8 @@ width: 81.5rem;
 .profile-bio{
 border-radius: 1.815rem;
 padding: 3.6875rem 4.3125rem; 
-background-color: #FFFFFF
+background-color: #FFFFFF;
+box-shadow: #DADADA 0.1875rem blur;
 }
 h1{ 
     font-family: 'Poppins', sans-serif;
@@ -59,7 +61,42 @@ h1{
 }
 
 /* Main Section Styles*/
+.main-section{
+    display: grid;
 
+}
 /* Proficiency Styles */
+.proficiency{
+    background-color: #FFFFFF;
+    width: 35.2437rem;
+    height: 26.7725rem;
+    border-radius: 1.815rem;
+    padding: 2.5625rem 1.75rem;
+    box-sizing: border-box;
+}
 
+.proficiency-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2.1175rem;
+    line-height: 150%;
+    color: #000000;
+    vertical-align: middle;
+    letter-spacing: 0%;
+    width: 31.8181rem;
+    height: 3.1875rem;
+}
 
+.proficiency-level{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.5125rem;
+    line-height: 150%;
+    color: #000000;
+    vertical-align: middle;
+    letter-spacing: 0%;
+    width: 31.8181rem;
+    height: 2.25rem;
+}
+
+.proficiency-l
