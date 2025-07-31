@@ -2,6 +2,7 @@
 body{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     
 }
 /* Container Styles */
@@ -63,6 +64,8 @@ h1{
 /* Main Section Styles*/
 .main-section{
     display: grid;
+    gap: 2.4375rem;;
+
 
 
 }
@@ -144,13 +147,41 @@ width: 19.8125rem;
     width: 44.125rem;
     height: 26.8125rem;
     padding: 1.75rem;
-    
+    background-color: #FFFFFF;
+    border-radius: 1.8125rem;
+    margin-top: 3rem;
+}
+
+.skills-title{
+    height: 3.1875rem;
+    width: 5.3125rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2.0625rem;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+.skills-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    width: 42rem;
+    height: 17.4375rem;
 
 }
 
 .skill-tag{
  height: 3.4375rem;
+ width: auto;
  padding: .5625rem 1.5rem;
  border-radius: 6rem;
- background-color: #4A8B70;
+ background-color: #E7F0EC;
+ white-space: nowrap;
+ box-sizing: border-box;
+ text-align: center;
+ font-family: 'Poppins', sans-serif;
+ font-weight: 400;
+ font-size: 1.5rem;
+ line-height: 150%;
 }
