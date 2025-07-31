@@ -238,7 +238,7 @@ width: 19.8125rem;
     padding: 1.6875rem 1.3125rem;
     box-sizing:border-box
 }
-
+px
 .edu-2{
     display: flex;
     background-color: #FFFFFF;
@@ -258,5 +258,37 @@ width: 19.8125rem;
     padding: 1.9375rem 1.6875rem;
     box-sizing: border-box;
     margin-left: 3.9375rem;
-    
+}
+
+
+/* Tools Styles*/
+
+
+
+/* Footer Styles*/
+
+.contact{
+    width: 82.625rem;
+    height: 9.875rem;
+    background-color: #D76239;
+    border-radius: 1.8125rem;
+    margin: 3.6875rem;
+    box-sizing: border-box;
+    padding: 1.8125rem;
+
+}
+.message{
+    width: 78.9375rem;
+    height: 3.1875rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2.0625rem;
+    line-height: 150%;
+    vertical-align: middle;
+    color:#FFFFFF;
+}
+.contact-list{
+    width: 78.9375rem;
+    height: 2.25rem;
+
 }
