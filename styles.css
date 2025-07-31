@@ -249,3 +249,14 @@ width: 19.8125rem;
     box-sizing: border-box;
 }
 
+/* Experience Styles*/
+.experience{
+    width: 82.25rem;
+    height: 40rem;
+    background-color: #FFFFFF;
+    border-radius: 1.8125rem;
+    padding: 1.9375rem 1.6875rem;
+    box-sizing: border-box;
+    margin-left: 3.9375rem;
+    
+}
