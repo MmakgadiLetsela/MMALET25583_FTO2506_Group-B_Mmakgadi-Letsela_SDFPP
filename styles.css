@@ -6,6 +6,9 @@ body{
 /* Container Styles */
 .container{
 background-image: url(grey-background.png);
+position: fixed;
+width: 100vw;
+height: 100vh;
 }
 
 /* Header Styles*/
@@ -14,12 +17,44 @@ display: flex;
 gap: .625rem;
 margin-left: 3.6875rem;
 margin-top: 3.9375rem;
+margin-right: 3.6875rem;
 }
-
 
 .profile-picture{
     width: 18.7563rem;
     height: 18.7563rem;
     border-radius: 1.815rem;
 }
+
+.profile-bio{
+border-radius: 1.815rem;
+padding: 3.6875rem 4.3125rem; 
+background-color: #FFFFFF
+}
+h1{ 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 104%;
+    color: #000000;
+    vertical-align: middle;
+    margin-bottom: .6875rem;
+    margin-top: 0;
+    height: 2.3125rem;
+    width: 18rem;
+}
+
+.bio-text{
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 1.375rem;
+    line-height: 150%;
+    color: #5C5C5C;
+    vertical-align: middle;
+    height: 8.25rem;
+    width: 53.5rem;
+    margin: 0
+}
 /* Proficiency Styles */
+
+
