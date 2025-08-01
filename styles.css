@@ -228,6 +228,7 @@ width: 19.8125rem;
 }
 span{
 font-weight: 700;
+text-align: left;
 
 }
 
@@ -258,7 +259,7 @@ font-weight: 700;
     height: 15.125rem;
     width: 58.5rem;
     border-radius: 1.8125rem;
-    padding: 1.6875rem 1.3125rem;
+    padding: 1.6875rem 0;
     box-sizing: border-box;
 }
 
@@ -283,6 +284,7 @@ font-weight: 700;
     box-sizing: border-box;
     padding: 1.1875rem 1.5625rem; 
     background-color: #4A8B70;
+    color: #FFFFFF
 }
 
 .exp-2, .exp-3{
@@ -293,6 +295,7 @@ font-weight: 700;
     box-sizing: border-box;
     padding: 1.1875rem 1.5625rem; 
     background-color: #E7F0EC;
+    color: #000000
 }
 
 /* Tools Styles*/ 
@@ -301,21 +304,53 @@ font-weight: 700;
     height: 52.9375rem;
     border-radius: 1.8125rem;
     background-color: #FFFFFF;
-
 }
-.tools-title{
-    width: 5.625rem;
-    height: 3.1875rem;
-    font-family: Poppins;
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 33.88px;
-    letter-spacing: 0%;
-    line-height: 150%;
-    vertical-align: middle;
-    
-
+.tools-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 2.375rem;
+    align-items: center;
 }
+
+.languages{
+    width: 11.4375rem;
+    height: 17.0625rem;
+    border-radius: .875rem;
+    box-sizing: border-box;
+    padding: 2.375rem .5625rem;
+    background-color: #E7F0EC;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 38px;
+}
+
+.design{
+    width: 11.5rem;
+    height: 9.5rem;
+    border-radius: .875rem;
+    background-color: #E7F0EC;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 38px;
+}
+.tools{
+    width: 11.4375rem;
+    height: 12.375rem;
+    border-radius: .875rem;
+    box-sizing: border-box;
+    padding: 2.375rem .5625rem;
+    background-color: #E7F0EC;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 38px;
+}
+/* .label{
+    position: absolute;
+    left: 3.4375rem;
+    border-radius: 8.875rem;
+    box-sizing: border-box;
+    padding: .25rem .875rem */
 
 /* Footer Styles*/
 
@@ -373,4 +408,5 @@ margin-bottom: .75rem;
 }
 .tools-title{
     width: 5.625rem;
+    align-content: center;
 }
