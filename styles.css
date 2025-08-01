@@ -91,37 +91,15 @@ h1{
     word-spacing: .75rem;
 }
 .proficiency-visuals{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.5125rem;
+    line-height: 104%;
+    color: #000000;
+    vertical-align: middle;
     display: flex;
-    flex-direction: row;
-    gap: 1.5125rem;
     width: 31.8125rem;
     height: 11.1875rem;
-    align-content: center;
-}
-.proficiency-list{
-    list-style: none;
-}
-.proficiency-bar{
-    height: 11.1875rem;
-    width: 20.0625rem;
-    list-style: none;
-}
-.bar-item{
-    height: 1.625rem;
-    fill: #4A8B70;
-    border-radius: .4537rem;
-}
-.bar-1{
-width: 19.8125rem;
-}
-.bar-2{
-    width: 14.5rem;
-}
-.bar-3{
-  width: 7.0625rem;
-}
-.bar-4{
-    width: 11.4375rem;
 }
 
 /* SKILLS STYLES*/
