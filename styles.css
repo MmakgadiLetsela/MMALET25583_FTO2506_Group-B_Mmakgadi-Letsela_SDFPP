@@ -124,7 +124,7 @@ width: 19.8125rem;
     width: 11.4375rem;
 }
 
-/* Skills Styles*/
+/* SKILLS STYLES*/
 .skills{
     box-sizing: border-box;
     width: 44.125rem;
@@ -158,7 +158,9 @@ width: 19.8125rem;
  font-size: 1.5rem;
  line-height: 150%;
 }
-/* Projects Styles*/
+/* END OF SKILLS STYLES*/
+
+/* PROJECTS STYLES*/
 
 .projects{
     width: 82.375rem;
@@ -178,6 +180,7 @@ width: 19.8125rem;
     display: flex;
     flex-direction: row;
     gap: 2.1875rem;
+    justify-content: center;
 }
 .card-1{
     width: 17rem;
@@ -188,6 +191,7 @@ width: 19.8125rem;
     background-color: #4A8B70;
     box-shadow: #DADADA .125rem blur;
     color: #FFFFFF;
+    position: relative;
 }
  .card-2, .card-3, .card-4{
     height: 36.3125rem;
@@ -198,6 +202,7 @@ width: 19.8125rem;
     background-color: #E7F0EC;
     box-shadow: #DADADA .125rem blur;
     color: #000000;
+    position: relative;
 }
 
 .date, .project-name{
@@ -216,7 +221,14 @@ span{
 font-weight: 700;
 text-align: left;
 }
-/* End of Project Styles*/
+.heart{
+    position: absolute;
+    top: 1.5625rem;
+    right:1.25rem;
+    height: 1.375rem;
+    width: 26px;
+}
+/* END OF PROJECTS STYLES*/
 
 /* Education Styles*/
 .education{
@@ -248,7 +260,7 @@ text-align: left;
     padding: 1.6875rem 0;
     box-sizing: border-box;
 }
-
+/* END OF EDUCATION STYLES*/
 /* EXPERIENCE STYLES*/
 
 .experience{
@@ -351,8 +363,9 @@ height: 6.25rem;
 .experience-list{
     margin: 0;
 }
+/* END OF EXPERIENCE STYLES*/ 
 
-/* Tools Styles*/ 
+/* TOOLS STYLES*/ 
 .tools-section{
     width: 18.75rem;
     height: 52.9375rem;
@@ -458,9 +471,9 @@ height: 6.25rem;
     height:36px;
     width: 1.5rem;
 }
-/* End of Tools Styles*/
+/* END OF TOOLS STYLES*/
 
-/* Footer Styles*/
+/* FOOTER STYLES*/
 
 .contact{
     width: 82.625rem;
@@ -510,7 +523,9 @@ height: 6.25rem;
 }
 .projects-title{
 width: 8.5rem;
+margin: 0 auto;
 margin-bottom: .75rem;
+
 }
 .skills-title{
     width: 5.3125rem;
