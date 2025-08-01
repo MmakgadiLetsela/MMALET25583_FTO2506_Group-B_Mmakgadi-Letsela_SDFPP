@@ -5,8 +5,6 @@ body{
     background-image: url(grey-background.png)
     
 }
-/* Container Styles */
-
 
 /* Header Styles*/
 .profile{
@@ -97,9 +95,26 @@ h1{
     line-height: 104%;
     color: #000000;
     vertical-align: middle;
-    display: flex;
     width: 31.8125rem;
     height: 11.1875rem;
+}
+.proficiency-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+
+}
+.proficiency-bar{
+    height: 1.625rem;
+    width: 20rem;
+    background-color: #FFFFFF;
+    border-radius: .4375rem;
+    overflow: hidden;
+}
+.bar-fill{
+    height: 100%;
+    background-color: #4A8B70;
+    border-radius: .4375rem;
 }
 
 /* SKILLS STYLES*/
