@@ -265,13 +265,34 @@ text-align: left;
     height: 1.8125rem;
     font-weight: 500;
     font-size: 1.1875rem;
+    margin: .8125rem 0;
 }
 .edu-institution{
     width: 18.125rem;
     height: 1.625rem;
     font-weight: 500;
     font-size: 1.5rem;
-
+    margin: .8125rem 0;
+}
+.edu-role{
+    margin: .8125rem 0;
+}
+.edu-points-1 li, .edu-points-2 li{
+    margin-bottom: 20px;
+}
+.edu-details-1, .edu-details-2{
+width: 16.6875rem;
+height: 8.0625rem;
+}
+.edu-details-2{
+    width: 18.75rem
+}
+.edu-points-1, .edu-points-2{
+    width: 36.125rem;
+    height: 10.875rem;
+}
+.edu-points-2{
+    width: 33.25rem;
 }
 /* END OF EDUCATION STYLES*/
 /* EXPERIENCE STYLES*/
