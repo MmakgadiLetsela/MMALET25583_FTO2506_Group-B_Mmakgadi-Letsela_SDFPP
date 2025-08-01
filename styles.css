@@ -478,7 +478,7 @@ height: 6.25rem;
     padding: 1.8125rem;
 
 }
-.message{
+.message, .contact-info{
     width: 78.9375rem;
     height: 3.1875rem;
     font-family: 'Poppins', sans-serif;
@@ -487,12 +487,22 @@ height: 6.25rem;
     line-height: 150%;
     vertical-align: middle;
     color:#FFFFFF;
+    margin-bottom: .25rem;
+    margin-top: 0;
 }
-.contact-list{
-    width: 78.9375rem;
-    height: 2.25rem;
+.contact-info{
+    color: #DDDDDD;
+    font-weight: 400;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+.contact-info a:hover{
+    text-decoration: underline;
+}
+.line{
+    margin: 0 30px;
+}
 
-}
 /* All Titles Styles*/
 
 .education-title, .experience-title, .proficiency-title, .skills-title, .projects-title, .tools-title{
