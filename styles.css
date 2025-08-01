@@ -158,7 +158,6 @@ width: 19.8125rem;
  font-size: 1.5rem;
  line-height: 150%;
 }
-
 /* Projects Styles*/
 
 .projects{
@@ -169,17 +168,39 @@ width: 19.8125rem;
     box-sizing: border-box;
     padding: 2.6875rem 1.8125rem;
     margin-left: 3.9375rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.1875rem;
+    line-height: 150%;
+
+}
+
+.project-cards{
     display: flex;
     flex-direction: row;
     gap: 2.1875rem;
 }
-.card card-1{
+.card-1{
     width: 17rem;
     height: 36.3125rem;
     border-radius: 1.8125rem;
     box-sizing: border-box;
     padding: 1.3125rem .9375rem;
     background-color: #4A8B70;
+    box-shadow: #DADADA .125rem blur;
+    color: #FFFFFF;
+
+}
+.card-2{
+    width: 17.5rem;
+    height: 36.3125rem;
+    box-sizing: border-box;
+    border-radius: 1.8125rem;
+    padding: 1.3125rem 1.1875rem;
+    background-color: #E7F0EC;
+    box-shadow: #DADADA .125rem blur;
+    color: #000000
+
 }
  .card-3, .card-4{
     height: 36.3125rem;
@@ -188,9 +209,27 @@ width: 19.8125rem;
     box-sizing: border-box;
     padding: 1.3125rem .9375rem; 
     background-color: #E7F0EC;
+    box-shadow: #DADADA .125rem blur;
+    color: #000000;
 
 }
 
+.date, .project-name{
+    width: 3.75rem;
+    height: 2.25rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 150%;
+    vertical-align: middle;
+}
+.project-name{
+    width: auto
+}
+span{
+font-weight: 700;
+
+}
 
 /* Education Styles*/
 .education{
@@ -324,7 +363,7 @@ width: 19.8125rem;
 }
 .projects-title{
 width: 8.5rem;
-margin: 0 0 0 0;
+margin-bottom: .75rem;
 }
 .skills-title{
     width: 5.3125rem;
