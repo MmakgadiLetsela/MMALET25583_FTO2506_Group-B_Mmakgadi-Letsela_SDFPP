@@ -251,29 +251,20 @@ text-align: left;
 
 /* Experience Styles*/
 .experience{
-    display: flex;
-    flex-direction: column;
-    gap: 1.875rem;
-    width: 82.25rem;
-    height: 40rem;
     background-color: #FFFFFF;
     border-radius: 1.8125rem;
     padding: 1.9375rem 1.6875rem;
     box-sizing: border-box;
     margin-left: 3.9375rem;
+    width: 82.25rem;
+    height: 40rem;
 }
-.exp-1{
-    display: flex;
-    width: 78.75rem;
-    height: 9.0625rem;
-    border-radius: 1.8125rem;
-    box-sizing: border-box;
-    padding: 1.1875rem 1.5625rem; 
-    background-color: #4A8B70;
-    color: #FFFFFF
+.experience-cards{
+    display: grid;
+    grid-template-rows: repeat(3, 9.0625rem);
+    gap: 1.875rem;
 }
-
-.exp-2, .exp-3{
+.exp-1, .exp-2, .exp-3{
     display: flex;
     width: 78.75rem;
     height: 9.0625rem;
@@ -281,7 +272,52 @@ text-align: left;
     box-sizing: border-box;
     padding: 1.1875rem 1.5625rem; 
     background-color: #E7F0EC;
-    color: #000000
+    color: #000000;
+    gap: .625rem;
+}
+.exp-1{
+    background-color: #4A8B70;
+    color: #FFFFFF
+}
+.experience-list li{
+margin-bottom: 5px;
+}
+.exp-details-1, .exp-details-2, .exp-details-3{
+width: 15.8125rem;
+height: 6.25rem;
+font-family:  'Poppins', sans-serif;
+font-weight: 400;
+font-size: 1.1875rem;
+line-height: 150%;
+vertical-align: middle;
+
+}
+
+.exp-points-1, .exp-points-2, .exp-points-3{
+    width: 49.5625rem;
+    height: 5.4375rem;
+}
+.divider{
+    margin: 0 .3125rem;
+}
+.tag-container{
+    width: 7.6875rem;
+    height: 2rem;
+    border-radius: 8.875rem;
+    box-sizing: border-box;
+    padding: .25rem 0;
+    background-color: #D76239
+}
+.tag{
+    width: 5.625rem;
+    height: 1.4375rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 155%;
+    vertical-align: middle;
+    color: #FFFFFF;
+
+
 }
 
 /* Tools Styles*/ 
@@ -438,6 +474,7 @@ text-align: left;
 }
 .experience-title{
     width: 11.5625rem;
+    margin: 0 0 1.25rem 0; 
 }
 .projects-title{
 width: 8.5rem;
