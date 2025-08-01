@@ -172,7 +172,6 @@ width: 19.8125rem;
     font-weight: 400;
     font-size: 1.1875rem;
     line-height: 150%;
-
 }
 
 .project-cards{
@@ -189,20 +188,8 @@ width: 19.8125rem;
     background-color: #4A8B70;
     box-shadow: #DADADA .125rem blur;
     color: #FFFFFF;
-
 }
-.card-2{
-    width: 17.5rem;
-    height: 36.3125rem;
-    box-sizing: border-box;
-    border-radius: 1.8125rem;
-    padding: 1.3125rem 1.1875rem;
-    background-color: #E7F0EC;
-    box-shadow: #DADADA .125rem blur;
-    color: #000000
-
-}
- .card-3, .card-4{
+ .card-2, .card-3, .card-4{
     height: 36.3125rem;
     width: 17rem;
     border-radius: 1.8125rem;
@@ -211,7 +198,6 @@ width: 19.8125rem;
     background-color: #E7F0EC;
     box-shadow: #DADADA .125rem blur;
     color: #000000;
-
 }
 
 .date, .project-name{
@@ -229,8 +215,8 @@ width: 19.8125rem;
 span{
 font-weight: 700;
 text-align: left;
-
 }
+/* End of Project Styles*/
 
 /* Education Styles*/
 .education{
@@ -304,12 +290,12 @@ text-align: left;
     height: 52.9375rem;
     border-radius: 1.8125rem;
     background-color: #FFFFFF;
-}
-.tools-cards{
     display: flex;
     flex-direction: column;
     gap: 2.375rem;
     align-items: center;
+    box-sizing: border-box;
+    padding: .625rem .3125rem;
 }
 
 .languages{
@@ -320,9 +306,7 @@ text-align: left;
     padding: 2.375rem .5625rem;
     background-color: #E7F0EC;
     position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 38px;
+    text-align: center;
 }
 
 .design{
@@ -330,9 +314,10 @@ text-align: left;
     height: 9.5rem;
     border-radius: .875rem;
     background-color: #E7F0EC;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 38px;
+    box-sizing: border-box;
+    padding: 1.875rem .5625rem;
+    position: relative;
+    text-align: center;
 }
 .tools{
     width: 11.4375rem;
@@ -341,16 +326,71 @@ text-align: left;
     box-sizing: border-box;
     padding: 2.375rem .5625rem;
     background-color: #E7F0EC;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 38px;
+    position: relative;
+    text-align: center;
 }
-/* .label{
+/* Label Styles*/
+
+.label-1, .label-2, .label-3{
     position: absolute;
-    left: 3.4375rem;
+    left: 50%;
+    top: -0.75rem;
+    transform: translateX(-50%);
     border-radius: 8.875rem;
     box-sizing: border-box;
-    padding: .25rem .875rem */
+    padding: .25rem .875rem;
+    background-color: #000000;
+    color: #E7F0EC;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: .75rem;
+    line-height: 142%;
+    vertical-align: middle;
+    height: 1.625rem;
+    z-index: 1;
+    text-align: center;
+}
+.label-1{
+    width: 5.9375rem;
+}
+.label-2{
+    width: 4.4375rem;
+}
+.label-3{
+    width: 3.6875rem;
+}
+/* Icons Grid*/
+
+.icons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.875rem;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.language-icon-1, .language-icon-2, .language-icon-3, .language-icon-4, .tools-icon{
+    height: 2.5625rem;
+    width: 2.5625rem;
+}
+.language-icon-5{
+    width: 2.5625rem;
+    height: 1.625rem;
+}
+.language-icon-6{
+    width: 2rem;
+    height: 2.25rem;
+}
+.design-icon-1, .design-icon-2, .design-icon-4{
+    height: 2.5625rem;
+    width: 2.5625rem;
+}
+.design-icon-4{
+    height:36px;
+    width: 1.5rem;
+}
+/* End of Tools Styles*/
 
 /* Footer Styles*/
 
@@ -390,6 +430,9 @@ text-align: left;
     vertical-align: middle;
     height: 3.1875rem;
 }
+
+/* Individual titles*/ 
+
 .education-title{
     width: 10.75rem;
 }
@@ -408,5 +451,7 @@ margin-bottom: .75rem;
 }
 .tools-title{
     width: 5.625rem;
-    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+
 }
