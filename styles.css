@@ -767,6 +767,7 @@ display: inline;
     width: auto;
     height: auto;
     margin: 0;
+    display: inline;
 }
 /* Tools*/
 .tools-section{
@@ -777,12 +778,16 @@ display: inline;
 }
 .tools-title{
     margin: 0;
+    display: inline;
+    text-align: center;
 }
 .tools-list{
     flex-direction: row;
     width: 17.5rem;
     height: 6.5rem;
     gap: .875rem;
+    justify-content: center;
+    margin-bottom: .75rem
 }
 .label-1, .label-2, .label-3{
     width: 2.5rem;
@@ -796,10 +801,63 @@ display: inline;
     width: 4.75rem;
     height: 6.5rem;
     border-radius: .375rem;
-    padding: 1rem .25rem;
+    padding: .25rem .25rem;
 }
 .language-icon, .design-icon, .tools-icon{
     width: 1.0625rem;
     height: 1.0625rem;
+}
+.icons{
+    gap: .75rem;
+}
+/* Experience*/
+.experience{
+    width: 19.875rem;
+    height: 30.4375rem;
+    border-radius: .75rem;
+    padding: .125rem;
+    margin-left: 3.125rem;
+}
+.exp-1, .exp-2, .exp-3{
+    width: 18.4375rem;
+    height: 8.125rem;
+    padding: .5rem;
+    border-radius: .625rem;
+}
+.experience-cards{
+    gap: .625rem;
+}
+.experience-title{
+    display: inline;
+}
+.tag-container{
+    width: 3.8125rem;
+    height: 1rem;
+    border-radius: 3.6875rem;
+    padding: .125rem 0; 
+}
+.tag{
+    font-size: .3125rem;
+}
+.exp-date, .exp-role, .experience-list{
+    font-size: .5rem;
+}
+.experience-list{
+    padding: 0;
+    width: 9.375rem;
+}
+.experience-list li{
+    display: inline;
+}
+.exp-company{
+    font-size: .625rem;
+    max-width: 7.5rem;
+}
+.exp-details-1, .exp-details-2, .exp-details-3{
+    width: 7.8125rem;
+}
+/* Footer*/
+.contact{
+    
 }
 }
