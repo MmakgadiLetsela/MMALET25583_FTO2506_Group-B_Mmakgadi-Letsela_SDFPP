@@ -297,7 +297,7 @@ height: 8.0625rem;
     box-sizing: border-box;
     width: 82.25rem;
     height: 40rem;
-    margin-left: 1.5625rem;
+    margin-left: 2.5rem;
 }
 .experience-cards{
     display: grid;
@@ -324,7 +324,7 @@ height: 8.0625rem;
 margin-bottom: 5px;
 }
 .exp-details-1, .exp-details-2, .exp-details-3{
-width: 15 .8125rem;
+width: 15.8125rem;
 height: 6.25rem;
 }
 
@@ -495,7 +495,7 @@ height: 6.25rem;
     border-radius: 1.8125rem;
     box-sizing: border-box;
     padding: 1.8125rem;
-    margin-left: 1.25rem;
+    margin-left: 2.1875rem;
 
 }
 .message, .contact-info{
@@ -655,6 +655,7 @@ h1{
 .skills-title{
     width: 2.1875rem;
     height: 1.3125rem;
+    margin-bottom: 0;
 }
 .skills-list{
     width: 18.375rem;
@@ -663,9 +664,10 @@ h1{
     gap: .5rem;
 }
 .skill-tag{
-    width: auto;
+    max-width: 8.75rem;
     height: 1.4375rem;
     font-size: .625rem;
+    padding: .25rem .625rem;
 }
 
 /* Projects*/
@@ -858,6 +860,20 @@ display: inline;
 }
 /* Footer*/
 .contact{
-    
+    width: 19.875rem;
+    height: 5.5625rem;
+    border-radius: .75rem;
+    padding: .75rem;
+    margin-left: 3.125rem;
+}
+.message{
+    width: 18.4375rem;
+    height: 2.625rem;
+    font-size: .875rem;
+}
+.contact-info{
+    width: 18.4375rem;
+    height: .9375rem;
+    font-size: .625rem;
 }
 }
