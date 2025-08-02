@@ -42,10 +42,7 @@ Welcome to my first major portfolio website built with HTML, CSS to showcase my 
 
 ## ☎️ Contact 
 - Email: mmakgadi.letsela@gmail.com
-- LinkedIn: 
+- LinkedIn: https://www.linkedin.com/in/mmakgadi-letsela-5bb4ab373?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BKVaIyLyCQWiJuFRARhs%2F6A%3D%3D
 
 
-
-
-
-**You’ve got this. Let’s go! 🚀**
+**I came, I saw, and i conquered 🚀** 
