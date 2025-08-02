@@ -5,13 +5,31 @@ body{
     background-image: url(grey-background.png)
     
 }
+/*CONTAINER GRID*/
+.container{
+    display: grid;
+    gap: 2.5rem;
+    max-width: 82.5rem;
+    box-sizing: border-box;
+}
+.proficiency-skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.edu-tools{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap : .625rem;
+}
+/* END OF CONTAINER GRID*/
 
-/* Header Styles*/
+/* HEADER STYLES*/
 .profile{
-display: flex;
+display: grid;
+grid-template-columns: 1fr 1fr;
 gap: .625rem;
-margin: 4.3125rem 3.6875rem 3.6875rem 0;
-width: 81.5rem;
+width: 82.5rem;
+margin: 3.75rem 3.75rem 0 3.75rem; 
 }
 
 .profile-picture{
@@ -50,16 +68,9 @@ h1{
     width: 53.5rem;
     margin: 0;
 }
+/* END OF HEADER STYLES*/
 
-/* Main Section Styles*/
-.main-section{
-    display: grid;
-    gap: 2.4375rem;;
-
-
-
-}
-/* Proficiency Styles */
+/* PROFICIENCY STYLES */
 .proficiency{
     background-color: #FFFFFF;
     width: 35.2437rem;
@@ -68,7 +79,7 @@ h1{
     padding: 2.5625rem 1.75rem;
     box-sizing: border-box;
     box-shadow: #DADADA 0.125rem blur;
-    margin: 3rem 3.875rem 0 0;
+    margin: 0 0 0 3.125rem;
 }
 
 .proficiency-level, .proficiency-visuals{
@@ -107,7 +118,7 @@ h1{
     background-color: #4A8B70;
     border-radius: .4375rem;
 }
-
+/* END OF PROFICIENCY STYLES
 /* SKILLS STYLES*/
 .skills{
     box-sizing: border-box;
@@ -116,7 +127,6 @@ h1{
     padding: 1.75rem;
     background-color: #FFFFFF;
     border-radius: 1.8125rem;
-    margin-top: 3rem;
 }
 
 .skills-list{
@@ -142,6 +152,9 @@ h1{
  font-size: 1.5rem;
  line-height: 150%;
 }
+.skill-tag p{
+    margin: 0;
+}
 /* END OF SKILLS STYLES*/
 
 /* PROJECTS STYLES*/
@@ -153,16 +166,16 @@ h1{
     border-radius: 1.8125rem;
     box-sizing: border-box;
     padding: 2.6875rem 1.8125rem;
-    margin-left: 3.9375rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1.1875rem;
     line-height: 150%;
+    margin-left: 3.125rem;
 }
 
 .project-cards{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 2.1875rem;
     justify-content: center;
     width: 78.1875rem;
@@ -176,11 +189,11 @@ h1{
     background-color: #4A8B70;
     box-shadow: #DADADA .125rem blur;
     color: #FFFFFF;
+    position: relative;
 }
  .card-2, .card-3, .card-4{
     background-color: #E7F0EC;
     color: #000000;
-    position: relative;
 }
 
 .date, .project-name{
@@ -215,13 +228,13 @@ text-align: left;
     box-sizing: border-box;
     padding: 1.8125rem;
     border-radius: 1.8125rem;
-    margin-left: 63px;
     font-family: 'Poppins', sans-serif;
     line-height: 150%;
     display: flex;
     flex-direction: column;
     gap: 2.1875rem;
     font-weight: 400;
+    margin-left: 2.8125rem;
 }
 
 
@@ -282,9 +295,9 @@ height: 8.0625rem;
     border-radius: 1.8125rem;
     padding: 1.9375rem 1.6875rem;
     box-sizing: border-box;
-    margin-left: 3.9375rem;
     width: 82.25rem;
     height: 40rem;
+    margin-left: 1.5625rem;
 }
 .experience-cards{
     display: grid;
@@ -476,13 +489,13 @@ height: 6.25rem;
 /* FOOTER STYLES*/
 
 .contact{
-    width: 82.625rem;
+    width: 82.5rem;
     height: 9.875rem;
     background-color: #D76239;
     border-radius: 1.8125rem;
-    margin: 3.6875rem;
     box-sizing: border-box;
     padding: 1.8125rem;
+    margin-left: 1.25rem;
 
 }
 .message, .contact-info{
@@ -511,7 +524,7 @@ height: 6.25rem;
 }
 /* END OF FOOTER STYLES*/
 
-/* All Titles Styles*/
+/* ALL TITLES STYLES*/
 
 .education-title, .experience-title, .proficiency-title, .skills-title, .projects-title, .tools-title{
     font-family: 'Poppins', sans-serif;
@@ -551,4 +564,130 @@ margin-bottom: .75rem;
     margin: 0 auto;
     margin-bottom: 1rem;
 
+} /* END OF TITLES STYLES*/
+
+/* RESPONSIVE STYLES*/ 
+/* Mobile 320-640*/
+
+@media (max-width: 640px) {
+/* Container*/
+.container{
+gap: .75rem;
+}
+/* Header*/
+.profile{
+    width: 18.75rem;
+    height: 8.5625rem;
+}
+.profile-picture{
+    width: 9.1875rem;
+    height: 8.5625rem;
+    border-radius: .75rem;
+}
+.profile-bio{
+    width: 10.1875rem;
+    height: 8.5625rem;
+    box-sizing: border-box;
+    border-radius: .75rem;
+    padding: .75rem;
+    overflow: hidden;
+}
+
+h1{
+    width: 8.6875rem;
+    height: 1.0625rem;
+    font-size: .875rem;
+    margin: 0;
+}
+.bio-text{
+    width: 139px;
+    height: 4.6875rem;
+    font-size: .625rem
+}
+/* Proficiency*/
+.proficiency-skills{
+    grid-template-columns: 1fr;
+    gap: .75rem;
+}
+.proficiency{
+    width: 19.875rem;
+    height: 11.0625rem;
+    margin-left: 60px;
+    padding: .75rem;
+}
+.proficiency-title{
+    width: 4.875rem;
+    height: 1.3125rem;
+}
+.proficiency-title, .skills-title, .projects-title, .education-title, .tools-title, .experience-title{
+    font-size: .875rem
+}
+.proficiency-level{
+    width: 13rem;
+    height: .9375rem;
+    font-size: .625rem;
+    word-spacing: .3125rem;
+}
+.proficiency-visuals{
+    width: 18.125rem;
+    height: 4.625rem;
+}
+.proficiency-item{
+    margin-bottom: 5px
+}
+.proficiency-item-name{
+    height: .625rem;
+    width: auto;
+    font-size: .625rem
+}
+.proficiency-bar{
+    width: 9.6875rem;
+    height: .6875rem;
+}
+
+/* Skills*/
+.skills{
+    width: 19.875rem;
+    height: 11.0625rem;
+    padding: .75rem;
+    margin-left: 60px
+}
+.skills-title{
+    width: 2.1875rem;
+    height: 1.3125rem;
+}
+.skills-list{
+    width: 18.375rem;
+    height: 7.25rem;
+    justify-content: space-around;
+    gap: .5rem;
+}
+.skill-tag{
+    width: auto;
+    height: 1.4375rem;
+    font-size: .625rem;
+}
+
+/* Projects*/
+.projects{
+    width: 19.875rem;
+    height: 39.5rem;
+    padding: 12px; 
+}
+.projects-title{
+    width: 3.5625rem;
+    height: 1.3125rem;
+    margin: 0 auto;
+}
+.project-cards{
+    width: 18.1875rem;
+    height: 35.75rem; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: .5625rem;
+}
+.card-1, .card-2, .card-3, .card-4{
+    width: 8.75rem;
+    height: 17.125rem;
+}
 }
