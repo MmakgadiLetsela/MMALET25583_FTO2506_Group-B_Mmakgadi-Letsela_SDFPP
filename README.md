@@ -31,7 +31,7 @@ Welcome to my first major portfolio website built with HTML, CSS to showcase my 
 - Sections such as projects and education.
 - Clean and modern layout
 
-## My Presentation 🎆🎆
+## 🌻 My Presentation 🎆🎆
 Here is a link to my amazing presentation that accompanies my project. >>>https://www.loom.com/share/19451c3452c44322a52c26a56ff29935
 
 ## ⚙️Technologies used
